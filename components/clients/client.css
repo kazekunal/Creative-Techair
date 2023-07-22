@@ -1,0 +1,146 @@
+.clients-main{
+    position: relative;
+    left: 20rem;
+    width: 60rem;
+    height: 20rem;
+    top: 8rem;
+}
+
+.clients-main-title{
+    position: relative;
+    top: -4rem;
+    display: flex;
+    width: 788.5px;
+    height: 44px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #060E72;
+    text-align: center;
+    font-family: Inter;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 49px; /* 144.118% */
+}
+
+.clients-main-box{
+    display: flex;
+    flex-direction: row;
+    width: 60rem;
+    height: 20rem;
+    position: relative;
+    right: 6rem;
+}
+
+.clients-main-box-left{
+    width: 15rem;
+    height: 15rem;
+    margin-right: 5rem;;
+    position: relative;
+    top: 2rem;
+}
+
+.clients-main-box-right{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.clients-main-desc{
+    width: 54rem;
+    color: #000;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.06px; /* 176.824% */
+}
+
+.clients-main-name{
+    color: #000F9E;
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 156.522% */
+}
+
+.customer-bar{
+    display: flex;
+    flex-direction: row;
+    background: whitesmoke;
+    position: relative;
+    top: -3rem;
+    right: 20rem;
+    width: 91rem;
+    height: 2rem;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.customer-bar-1{
+    position: relative;
+    top: 0.5rem;
+    right: 5rem;
+    background: #000F9E;
+    border-radius: 20px;
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+}
+
+@keyframes example {
+
+}
+
+.customer-bar-1:hover,.customer-bar-2:hover,.customer-bar-3:hover,.customer-bar-4:hover,.customer-bar-5:hover{
+    background: #000F9E;
+    width: 1.1rem;
+    height: 1.1rem;
+    overflow: hidden;
+}
+
+.customer-bar-2{
+    position: relative;
+    top: 0.5rem;
+    right: 5rem;
+    background: rgba(51, 53, 180, 0.68);
+    border-radius: 20px;
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+}
+
+.customer-bar-3{
+    position: relative;
+    top: 0.5rem;
+    right: 5rem;
+    background: rgba(51, 53, 180, 0.68);
+    border-radius: 20px;
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+}
+
+.customer-bar-4{
+    position: relative;
+    top: 0.5rem;
+    right: 5rem;
+    background: rgba(51, 53, 180, 0.68);
+    border-radius: 20px;
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+}
+
+.customer-bar-5{
+    position: relative;
+    top: 0.5rem;
+    right: 5rem;
+    background: rgba(51, 53, 180, 0.68);
+    border-radius: 20px;
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+}

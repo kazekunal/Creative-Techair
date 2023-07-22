@@ -1,0 +1,110 @@
+.product-main{
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    width: 20rem;
+    height: 25rem;
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.00);
+    box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.16);
+    top: 2rem;
+    flex-direction: column;
+    left: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.product-main-image{
+    width: 19rem;
+    height: 15rem;
+}
+
+.product-main-image-img{
+    width: 19rem;
+    height: 12rem;
+    position: relative;
+    top: 3rem;
+}
+
+.product-main-name{
+    position: relative;
+    top: 3rem;
+    left: 2rem;
+    display: flex;
+    width: 17rem;
+    height: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #1A1A1A;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 133.333% */
+    text-transform: uppercase;
+}
+
+.product-main-info{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 20rem;
+    height: 10rem;
+}
+
+.product-main-det{
+    position: relative;
+    width: 7rem;
+    height: 1.8rem;
+    top: 1rem;
+    left: 2rem;
+    display: flex;
+    padding: 10px 11.52px 10px 10px;
+    align-items: flex-start;
+    border: 1px solid #EEA236;
+    background: #F0AD4E;
+    align-content: center;
+    border-radius: 2.4rem;
+    box-sizing: border-box;
+    cursor: pointer;
+    flex-shrink: 0;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all .5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    /*letter-spacing: -0.1rem;*/
+    justify-content: center;
+}
+
+.product-main-det-txt{
+    position: relative;
+    width: 7rem;
+    height: 2rem;
+    top: -0.3rem;
+    color: #fff;
+    text-align: center;
+    font-family: Open Sans, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 150% */
+    justify-content: center;
+}
+
+.products{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    flex-wrap: wrap;
+    width: 22rem;
+    height: 26rem;
+    /*display: none;*/
+}
+
+#pro{
+    display: flex;
+    flex-wrap: wrap;
+}

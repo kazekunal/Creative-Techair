@@ -1,0 +1,105 @@
+
+
+.header-main{
+    position: fixed;
+    margin-top: 1rem;
+    width: 100%;
+    height: 10%;
+    /*overflow: auto;*/
+    z-index: 1000;
+    /*position: sticky;*/
+}
+
+.header-main_container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 48rem;
+    top: -2rem;
+    background: #fef8ff;
+    height: 6rem;
+
+}
+
+.header-main_container-right{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: start;
+    align-content: start;
+    position: relative;
+    top: 3rem;
+
+}
+
+.header-main_container-left{
+    position: relative;
+    right: 3rem;
+    bottom: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    margin-left: -3rem;
+    gap: 3rem;
+    align-items: end;
+}
+
+.header-main_container__item-1{
+    width: 2rem;
+    height: 2rem;
+}
+
+.img_logo{
+    width: 2rem;
+    height: 2rem;
+}
+
+.navbar-logo{
+    width: 4rem;
+    height: 4rem;
+    position: relative;
+    top: -1.5rem;
+    left: 1rem;
+}
+
+.header-main_container__item-2{
+    position: relative;
+    left: 2rem;
+    bottom: 0.5rem;
+    font-family: Georgia, monospace;
+    font-size: 20px;
+}
+
+.header-main_container__item-3,.header-main_container__item-4,.header-main_container__item-5,.header-main_container__item-6{
+    font-family: Georgia, monospace;
+    text-decoration: none;
+}
+
+.header-main_container__item-3{
+    overflow: hidden;
+}
+
+.header-main_container__item-3__a:hover,.header-main_container__item-4__a:hover,.header-main_container__item-5__a:hover,.header-main_container__item-6__a:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.header-main_container__item-3__a,.header-main_container__item-4__a,.header-main_container__item-5__a,.header-main_container__item-6__a{
+    text-decoration: none;
+    color: black;
+}
+
+.header-main_container__item-3::after,.header-main_container__item-4::after,.header-main_container__item-5::after,.header-main_container__item-6::after{
+    content: '';
+    display: block;
+    height: 4px;
+    width: 100%;
+    background-color: red;
+    transform: scaleX(0);
+
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.header-main_container__item-3:hover::after,.header-main_container__item-4:hover::after,.header-main_container__item-5:hover::after,.header-main_container__item-6:hover::after{
+    transform: scaleX(1);
+}
