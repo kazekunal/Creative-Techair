@@ -21,7 +21,7 @@ const Companyinfo = () => {
                     Creative Techair
                 </div>
                 <div className="company-main-right_subtitle">
-                    Helping companies since 2017
+                    Helping companies since 2012
                 </div>
                 <div className="company-main-right_body">
                     {/* eslint-disable-next-line react/no-unescaped-entities */}

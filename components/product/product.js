@@ -5,38 +5,21 @@ import img1 from '../../public/images/card_img1.png'
 const Product = () => {
     const ProductDetails = [
         {
-            "Name" : "ELEMENTS HP LP",
+            "Name" : "Compressors",
             "Hero_image" : '/images/card_img1.png'
         },
         {
-            "Name" : "Airnet Fittings",
+            "Name" : "Vacuum Pumps",
             "Hero_image" : '/images/card_img1.png'
         },
         {
-            "Name" : "AIRNET FLANGE D63",
+            "Name" : "Airnet pipelines",
             "Hero_image" : '/images/card_img1.png'
         },
         {
-            "Name" : "AIRNET PIPES",
+            "Name" : "Trident Dryers",
             "Hero_image" : '/images/card_img1.png'
         },
-        {
-            "Name" : "EDWARD SCREW VACCUM PUMP",
-            "Hero_image" : '/images/card_img1.png'
-        },
-        {
-            "Name" : "CPV PISTON",
-            "Hero_image" : '/images/card_img1.png'
-        },
-        {
-            "Name" : "AIRNET PIPES",
-            "Hero_image" : '/images/card_img1.png'
-        },
-        {
-            "Name" : "AIRNET PIPES",
-            "Hero_image" : '/images/card_img1.png'
-        },
-
         ]
 
     return (
