@@ -90,6 +90,12 @@
     background: #D21E2B;
 }
 
+.company-main-right_body__button:hover{
+    background: #ff0011;
+}
+
+
+
 .company-main-right_body__button-text{
     position: relative;
     display: flex;
@@ -98,7 +104,6 @@
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
-    color: #FFF;
     text-align: center;
     font-family: Open Sans, serif;
     font-size: 1.2rem;
@@ -106,6 +111,7 @@
     font-weight: 400;
     line-height: 20px; /* 142.857% */
 }
+
 
 #company-products{
     display: flex;

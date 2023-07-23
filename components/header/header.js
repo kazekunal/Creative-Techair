@@ -30,13 +30,13 @@ const Header = () => {
                     <p className="header-main_container__item-1">
                         <img src={logo.src} className="navbar-logo"/>
                     </p>
-                    <p className="header-main_container__item-2"><a href="#Hero-Section" className="header-main_container__item-3__a">Creative Techair Pvt. Ltd</a></p>
+                    <p className="header-main_container__item-2"><a href="#" className="header-main_container__item-3__a">Creative Techair Pvt. Ltd</a></p>
                 </div>
                 <div className="header-main_container-left">
-                    <p className="header-main_container__item-3"><a href="#Hero-Section" className="header-main_container__item-3__a">Home</a></p>
+                    <p className="header-main_container__item-3"><a href="/" className="header-main_container__item-3__a">Home</a></p>
                     <p className="header-main_container__item-4"><a href="#company" className="header-main_container__item-3__a">About</a></p>
                     <p className="header-main_container__item-5"><a href="#company-products" className="header-main_container__item-3__a">Our Products</a></p>
-                    <p className="header-main_container__item-6"><a href="#" className="header-main_container__item-3__a">Contact Us</a></p>
+                    <p className="header-main_container__item-6"><a href="/contact" className="header-main_container__item-3__a">Contact Us</a></p>
                 </div>
             </div>
         </div>
