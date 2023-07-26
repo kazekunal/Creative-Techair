@@ -101,6 +101,13 @@
     overflow: hidden;
 }
 
+.active{
+    background: #000F9E;
+    width: 1.1rem;
+    height: 1.1rem;
+    overflow: hidden;
+}
+
 .customer-bar-2{
     position: relative;
     top: 0.5rem;

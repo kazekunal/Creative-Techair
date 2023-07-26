@@ -1,15 +1,24 @@
-import React from 'react';
+'use client'
+
 import './client.css'
 import icon from '../../public/images/icon.svg'
+import React, { useState } from 'react';
 
 const Client = () => {
+    const [isContentVisible, setContentVisible] = useState(false);
+
+    const handleClick = () => {
+        // Toggle the state when the div is clicked
+        setContentVisible(!isContentVisible);
+    };
+
     return (
         <div className="clients-main">
             <div className="clients-main-title">
                 Word from Our Clients
             </div>
 
-                <div className="clients-main-box">
+            {isContentVisible && <div className="clients-main-box">
                     <div className="clients-main-box-left">
                         <div className="clients-main-box-left__img">
                             <img src={icon.src} alt="icon" className="clients-main-box-left-icon"/>
@@ -25,13 +34,13 @@ const Client = () => {
                         </div>
                 </div>
 
-            </div>
+            </div>}
             <div className="customer-bar">
-                <div className="customer-bar-1"></div>
-                <div className="customer-bar-2"></div>
-                <div className="customer-bar-3"></div>
-                <div className="customer-bar-4"></div>
-                <div className="customer-bar-5"></div>
+                <div className="customer-bar-1" onClick={handleClick}></div>
+                <div className="customer-bar-2" onClick={handleClick}></div>
+                <div className="customer-bar-3" onClick={handleClick}></div>
+                <div className="customer-bar-4" onClick={handleClick}></div>
+                <div className="customer-bar-5" onClick={handleClick}></div>
             </div>
         </div>
     );
