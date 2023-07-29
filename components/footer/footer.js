@@ -20,9 +20,10 @@ const Footer = () => {
             </div>
             <div className="footer-section-2">
                 <p className="footer-section-2__1">Products</p>
-                <p className="footer-section-2__sub">lorem epsum</p>
-                <p className="footer-section-2__sub">lorem epsum</p>
-                <p className="footer-section-2__sub">lorem epsum</p>
+                <p className="footer-section-2__sub">Compressors</p>
+                <p className="footer-section-2__sub">Vacuum Pumps</p>
+                <p className="footer-section-2__sub">Airnet Pipelines</p>
+                <p className="footer-section-2__sub">Trident Dryers</p>
             </div>
             <div className="footer-section-3">
                 <p className="footer-section-2__1">Team</p>
